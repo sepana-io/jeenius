@@ -34,12 +34,22 @@ The power of the Internet at your fingertips.
 # Demo
 https://youtu.be/odnOULoHrPo
 
-# Technical eco-system
+# Installation
+1. Video tutorial for running chrome extension https://youtu.be/mOA8yJFefXw
+4. Back-end app can be run same way any next.js app is run by installing dependencies using `npm install` and starting the app using `npm start`. If you don't want to run the app yourself here is the jeenius back-end app up and running https://jeenius-backend.vercel.app
+
+# Technical details
 Jeenius environment consists of two connected applications. 
 
 1. **Chrome extension**, serving as a client UI
-2. A **next.js app** serving as a back-end for the extension
+2. A **next.js app** serving as a server for the extension
 
-# Installation
-1. Video tutorial for running chrome extension https://youtu.be/mOA8yJFefXw
-2. Back-end app can be run same way any next.js app is run by installing dependencies using `npm install` and starting the app using `npm start`. If you don't want to run the app yourself here is the jeenius back-end app up and running https://jeenius-backend.vercel.app
+The extension offers three major features to its users:
+1. Access Counterarguments:
+Users can request counterarguments for any Twitter post. Upon clicking the button, a request is sent to the server, which then connects to the ChatGPT API and retrieves several popular counterarguments.
+
+2. Consult Experts:
+Users can request a list of experts. The server sends a list of 50 expert accounts across various fields to ChatGPT as input. Each expert's record includes their field of expertise and a brief description of their work. ChatGPT selects the top 3 most suitable experts to address the topic in the Twitter post, and the user can then visit the expert's Twitter profile to connect with them.
+
+3. Create a Poll (In Development):
+This feature aims to allow users to create a WhatsApp poll for discussions and invite participants. However, it is currently under development and only allows users to share the Twitter post on WhatsApp for now.
