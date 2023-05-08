@@ -1,4 +1,7 @@
 # Jeenius
+
+Jeenius is a chrome extension that uses chatGPT to help humanity have better discussions.
+
 Every day we discuss and debate. Climate change. War. Politics. Religion. 
 Health. And everything else under the sun. 
 
