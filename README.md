@@ -1,38 +1,6 @@
 # Jeenius
 
-Jeenius is a chrome extension that uses chatGPT to help humanity have better discussions.
-
-Every day we discuss and debate. Climate change. War. Politics. Religion. 
-Health. And everything else under the sun. 
-
-Your uncle tells you Covid was a hoax. Your co-worker says socialism sucks. 
-Your sister tells you capitalism sucks. Your best friend supports Ukraine. Your 
-piano teacher supports Russia. Did the US respond correctly to the Chinese 
-spy balloons? Does Israel’s Supreme Court have too much power? And a 
-million more questions.
-
-Whatsapps, Facebook, Twitter – and every other platform – are filled with 
-humans’ favourite past-time. Discussion. 
-
-Yet too often these conversations get heated. Too often we stop talking. One 
-thing is certain: all of us wish we knew more. Wish we had a better command
-of the facts. Wish we could put our finger on exactly what we think and why.
-
-Jeenius is a superpower unlike anything you’ve ever experienced. What if 
-with the push of a button you could:
-- Think like Socrates
-- Argue like Plato
-- Cite like Wikipedia
-- Empathize like Jesus
-- And summarize like ChatGPT
-
-Simply install Jeenius’ browser extension and 100X your ability to think and 
-discuss. ChatGPT meets hive-mind. Expert network meet your friend network.
-The power of the Internet at your fingertips. 
-
-**Instant context.** 
-**Supreme understanding.** 
-**Brilliant discussions.** 
+Jeenius is a browser extension that uses ChatGPT to help humanity have better discussions. Too often, conversations (especially on Twitter) get heated. Too often, we stop talking. Most of us don't have the time to delve deep enough into complex issue to have a full picture. Simply install Jeenius, click the lime green Jeenius button on any tweet and you'll be able to: see counterarguments, poll your friends or ask an expert. The counterarguments produced by ChatGPT are intended to provide you additional context -- a window into how others might see the same issue from a different perspective. Polling your friends and asking experts are additional layers of insight to give you the fullest possible understanding. Jeenius is for people with radically open minds who want to seek truth -- no matter where it leads them.
 
 # Demo
 https://youtu.be/odnOULoHrPo
