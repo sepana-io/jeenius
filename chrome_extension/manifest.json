@@ -1,15 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Post Info",
+  "name": "Jeenius",
   "version": "1.0",
-  "description": "Adds an 'Info' button to view post info.",
+  "description": "Adds an 'Jeenius' button to view more information about the post.",
   "icons": {
     "48": "icon48.png"
   },
   "action": {
     "default_icon": "icon48.png",
     "default_popup": "popup.html",
-    "default_title": "Post Info"
+    "default_title": "Jeenius"
   },
   "permissions": [
     "activeTab",

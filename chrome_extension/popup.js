@@ -4,7 +4,7 @@
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === 'post_info') {
       const postInfo = message.postInfo;
-      // Update popup with post info
+      // Update popup with post 
       document.getElementById('postInfo').textContent = postInfo;
     }
   });
