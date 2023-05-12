@@ -1,38 +1,44 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Post Info",
   "version": "1.0",
   "description": "Adds an 'Info' button to view post info.",
   "icons": {
     "48": "icon48.png"
   },
-  "content_scripts": [
-    {
-        "matches": ["*://twitter.com/*"],
-        "js": ["contentScript.js"],
-      "run_at": "document_end"
-    }
-  ],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "permissions": [
-    "activeTab","tabs"
-  ],
-  "browser_action": {
+  "action": {
     "default_icon": "icon48.png",
     "default_popup": "popup.html",
     "default_title": "Post Info"
   },
-  "web_accessible_resources":[
-    "assets/logo.svg",
-    "assets/popup.css",
-    "assets/lightning.svg",
-    "assets/whatsapp.svg",
-    "assets/user.svg",
-    "assets/close.svg",
-    "assets/refresh.svg",
-    "assets/copy.svg"
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/logo.svg",
+        "assets/popup.css",
+        "assets/lightning.svg",
+        "assets/whatsapp.svg",
+        "assets/user.svg",
+        "assets/close.svg",
+        "assets/refresh.svg",
+        "assets/copy.svg"
+      ],
+      "matches": ["<all_urls>"],
+      "use_dynamic_url": false
+    }
   ]
 }
