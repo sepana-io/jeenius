@@ -11,10 +11,7 @@
     "default_popup": "popup.html",
     "default_title": "Jeenius"
   },
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
+  "permissions": [],
   "background": {
     "service_worker": "background.js"
   },
