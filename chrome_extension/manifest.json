@@ -2,12 +2,18 @@
   "manifest_version": 3,
   "name": "Jeenius",
   "version": "1.0",
-  "description": "Adds an 'Jeenius' button to view more information about the post.",
+  "description": "Adds a 'Jeenius' button to view more information about the post.",
   "icons": {
-    "48": "icon48.png"
+    "16": "assets/logo_16.png",
+    "48": "assets/logo_48.png",
+    "128": "assets/logo_128.png"
   },
   "action": {
-    "default_icon": "icon48.png",
+    "default_icon": {             
+      "16": "assets/logo_16.png",
+      "48": "assets/logo_48.png",
+      "128": "assets/logo_128.png"
+    },
     "default_popup": "popup.html",
     "default_title": "Jeenius"
   },
