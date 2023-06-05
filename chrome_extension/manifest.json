@@ -4,15 +4,15 @@
   "version": "1.0",
   "description": "Adds a 'Jeenius' button to view more information about the post.",
   "icons": {
-    "16": "assets/logo_16.png",
-    "48": "assets/logo_48.png",
-    "128": "assets/logo_128.png"
+    "16": "assets/Logo_transparent.png",
+    "48": "assets/Logo_transparent.png",
+    "128": "assets/Logo_transparent.png"
   },
   "action": {
     "default_icon": {             
-      "16": "assets/logo_16.png",
-      "48": "assets/logo_48.png",
-      "128": "assets/logo_128.png"
+      "16": "assets/Logo_transparent.png",
+      "48": "assets/Logo_transparent.png",
+      "128": "assets/Logo_transparent.png"
     },
     "default_popup": "popup.html",
     "default_title": "Jeenius"

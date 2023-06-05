@@ -193,8 +193,8 @@ async function showModalPopup(postInfo, userInfo) {
   modal.style.zIndex = '9999';
   const imageSrc = userAvatar.getElementsByTagName('img')[0].src
   modal.innerHTML = `
-  <div id="modalContent" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; border-radius: 16px; padding: 20px; max-width: 400px; width: 100%; max-height: 80vh;">
-  <button style="position: absolute; top: -3%;right: -2%;z-index: 5; background-color: #F1F5F9; border: none; border-radius: 100px; cursor: pointer; height: 28px; width: 28px" type='button' class='post-info-modal-close'>
+  <div id="modalContent" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; border-radius: 16px; padding: 20px; max-width: 400px; width: 100%; height: 70%; max-height: 80vh;">
+  <button style="    position: absolute; top: -14px; right: -14px; z-index: 5; background-color: #F1F5F9; border: none; border-radius: 100px; cursor: pointer; height: 28px; width: 28px; display: flex; align-items: center; justify-content: center;" type='button' class='post-info-modal-close'>
     <img src="${chrome.runtime.getURL("assets/close.svg")}" alt="close"/></button>
       <div id="jeenius-header" style="display: flex; flex-direction: row; gap: 10px; align-items: center;">
       <div style="height: 48px; width: 48px; border-radius: 360px; overflow: hidden;">
@@ -209,9 +209,9 @@ async function showModalPopup(postInfo, userInfo) {
       <div id="jeenius-divider" style="height: 1px; background-color: #ACF70D; width: 100%; margin: 5px 0px;">
       </div>
 
-      <div style="display: flex; flex-direction: row; gap: 10px; align-items: flex-start;">
+      <div style="height: 100%; display: flex; flex-direction: row; gap: 10px; align-items: flex-start;">
       <img src=${chrome.runtime.getURL("assets/logo.svg")} style="padding-top: 10px;" />
-        <div>
+        <div style="height: 100%; overflow: scroll;">
           <p style="font-size: 14px;"><strong>Jeenius</strong></p>
           <p id="jeenius-question" style="font-size: 14px;">What do you want to do?</p>
           <div id="counterArgumentInfo"> </div>
