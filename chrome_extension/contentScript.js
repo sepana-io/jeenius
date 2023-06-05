@@ -249,7 +249,6 @@ async function showModalPopup(postInfo, userInfo) {
 
   const askExpertsButton = modal.querySelector('.post-info-modal-ask');
   askExpertsButton.addEventListener("click", () => {
-    askExpertsButton.style.display = 'none'
     fetchExpertsAndUpdateModal(postInfo);
   });
 
