@@ -9,7 +9,7 @@
     "128": "assets/Logo_transparent.png"
   },
   "action": {
-    "default_icon": {             
+    "default_icon": {
       "16": "assets/Logo_transparent.png",
       "48": "assets/Logo_transparent.png",
       "128": "assets/Logo_transparent.png"
@@ -38,7 +38,9 @@
         "assets/user.svg",
         "assets/close.svg",
         "assets/refresh.svg",
-        "assets/copy.svg"
+        "assets/copy.svg",
+        "assets/lightning-green.svg",
+        "assets/spinner-green.svg"
       ],
       "matches": ["<all_urls>"],
       "use_dynamic_url": false
