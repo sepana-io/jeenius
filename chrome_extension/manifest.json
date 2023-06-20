@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Jeenius",
-  "version": "1.0",
-  "description": "Adds a 'Jeenius' button to view more information about the post.",
+  "version": "1.4",
+  "description": "Adds a Jeenius button to see counterarguments to any tweet",
   "icons": {
     "16": "assets/Logo_transparent.png",
     "48": "assets/Logo_transparent.png",
